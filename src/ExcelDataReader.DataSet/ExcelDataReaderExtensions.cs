@@ -145,7 +145,7 @@ namespace ExcelDataReader
                 {
                     var columnIndex = columnIndices[i];
 
-                    var value = self.GetValue(columnIndex);
+                    var value = self.GetCellError(columnIndex) ?? self.GetValue(columnIndex);
                     if (configuration.TransformValue != null)
                     {
                         var transformedValue = configuration.TransformValue(self, i, value);
