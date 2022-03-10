@@ -13,7 +13,7 @@
     <PackageId>ExcelDataReader.DataSet</PackageId>
     <PackageTags>excel;xls;xlsx;dataset</PackageTags>
     <PackageIcon>ExcelDataReader.png</PackageIcon>
-    <PackageProjectUrl>https://github.com/Integrated-Doorsets/ExcelDataReader</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ExcelDataReader/ExcelDataReader</PackageProjectUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <CodeAnalysisRuleSet>..\..\ExcelDataReader.ruleset</CodeAnalysisRuleSet>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
